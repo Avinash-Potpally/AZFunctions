@@ -37,7 +37,7 @@ jobs:
         id: fa
         with:
           app-name: 'aazfun001'
-          slot-name: 'aazfun001-slot-1'
+          slot-name: 'aazfun001'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A25B8D16C7E74411A6B98E521ABDA364 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
